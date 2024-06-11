@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "server",
+			"path": "../../rent-a-life/server"
+		},
+		{
+			"name": "final",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

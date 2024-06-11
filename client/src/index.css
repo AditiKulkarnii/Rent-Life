@@ -1,0 +1,156 @@
+/* index.css */
+
+/* Add or modify styles for the modal */
+.modal {
+    position: absolute;
+    top: 190px;
+    right: 1px;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 60%;
+    width: auto;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(48, 47, 47, 0.1); /* Add shadow */
+    overflow: auto;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    outline : bisque;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:  none; /* Semi-transparent black background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Adjust the z-index to make sure it appears above other content */
+    outline: bisque; /* Remove outline/border */
+}
+
+/* Add styles for the modal content */
+.modal-content {
+    width: 100%;
+    border: none; /* Remove border */
+}
+
+/* Add or modify styles for the profile image */
+.modal-content img {
+    width: 30%;
+    height: 50px;
+    max-width: 40%;
+    border-radius: 50%;
+    margin-bottom: 5px; /* Adjusted margin */
+}
+
+/* Add styles for the user details (name, email) */
+.modal-content h2 {
+    font-size: 1.2rem; /* Reduced font size */
+    font-weight: bold;
+    margin-bottom: 0.2rem; /* Adjusted margin */
+}
+
+.modal-content p {
+    font-size: 0.9rem; /* Reduced font size */
+    color: #555;
+    margin-bottom: 0.3rem; /* Adjusted margin */
+}
+
+/* Add styles for the logout link and view details button */
+.logout-link {
+    color: #ff5252;
+    text-decoration: none;
+    margin-right: 1rem;
+    margin-top: 0.3rem;
+}
+
+.view-details-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-details-btn:hover {
+    background-color: #45a049;
+}
+
+/* Add this CSS to your main CSS file or inside a style tag/component */
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    height:  600px;
+    width:   700px;
+  }
+  
+  .image-container img {
+    transition: transform 0.5s ease;
+    width: 800px;
+    height: 600px;
+
+    
+
+  }
+
+  .image-preview {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+ .modal-img{
+    position: relative;
+    top: 300px;
+    right: 1px;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 60%;
+    width: 800px;
+    height:800px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(48, 47, 47, 0.1); /* Add shadow */
+    overflow-y: visible; /* Hide horizontal scrollbar */
+    outline : bisque;
+ }
+
+ .modal-overlay-img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:  none; /* Semi-transparent black background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Adjust the z-index to make sure it appears above other content */
+    outline: bisque; 
+ }
+  /* .image-container:hover img {
+    transform: scale(1.2);
+
+  } */
+
+.image-gallery-thumbnails{
+  position: left;
+  height: 100px;
+  width: 100px;
+  
+}
+ 
+  
+  
